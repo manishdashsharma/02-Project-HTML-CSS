@@ -43,6 +43,9 @@ img {
     justify-content: space-between;
     list-style: none;
 }
+.list-item:first-child::after{
+    content: ' \02C5';
+}
 .navbar .button-small {
     /* override browser styles */
     border: none;
